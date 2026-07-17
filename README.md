@@ -22,4 +22,4 @@ Laboratório para configuração de um servidor Samba utilizando AlmaLinux.
 ```bash
 dnf install samba samba-client
 systemctl enable smb --now
-# teste
+
