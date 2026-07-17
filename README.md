@@ -1,14 +1,24 @@
 # Samba Lab
 
-Laboratório criado em AlmaLinux 9.
-
-## Serviços
-
-- Samba
-- SSH
-- FirewallD
-- SELinux
-
 ## Objetivo
+Laboratório para configuração de um servidor Samba utilizando AlmaLinux.
 
-Compartilhamento de arquivos entre Linux e Windows.
+## Ambiente
+
+- AlmaLinux 9
+- Samba
+- Cliente Linux
+- Rede local
+
+## Funcionalidades
+
+- Compartilhamento de arquivos
+- Controle de permissões
+- Usuários locais
+- Testes de acesso
+
+## Comandos utilizados
+
+```bash
+dnf install samba samba-client
+systemctl enable smb --now
